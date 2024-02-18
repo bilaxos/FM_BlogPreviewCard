@@ -2,11 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <link rel="icon" type="image/svg+xml" href="public/images/favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog Preview Card</title>
   </head>
   <body>
-    <div id="app"></div>
+    <main>
+      <div class="card">
+        <img class="blog-img" src="public/images/illustration-article.svg" alt="Blog preview image" />
+        <ul class="blog-tags" role="list">
+          <li>Learning</li>
+        </ul>
+        <p class="blog-date">Published 21 Dec 2023</p>
+
+        <h1 class="blog-title"><a href="#">HTML & CSS foundations</a></h1>
+        <p class="blog-body">
+          These languages are the backbone of every website, defining structure, content, and presentation.
+        </p>
+        <div class="blog-author-container">
+          <img class="author-avatar" src="public/images/image-avatar.webp" alt="Blog author's avatar" />
+          <p class="author">Greg Hooper</p>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
